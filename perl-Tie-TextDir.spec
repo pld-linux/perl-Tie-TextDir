@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	TextDir
-Summary:	Tie-TextDir perl module
-Summary(pl):	Modu³ perla Tie-TextDir
+Summary:	Tie::TextDir perl module
+Summary(pl):	Modu³ perla Tie::TextDir
 Name:		perl-Tie-TextDir
 Version:	0.04
 Release:	4
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tie-TextDir perl module.
+Tie::TextDir perl module.
 
 %description -l pl
-Modu³ perla Tie-TextDir.
+Modu³ perla Tie::TextDir.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
