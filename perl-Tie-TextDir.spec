@@ -4,7 +4,7 @@
 Summary:	Tie::TextDir - interface to directory of files
 Name:		perl-Tie-TextDir
 Version:	0.04
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
