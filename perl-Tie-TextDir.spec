@@ -4,12 +4,12 @@
 Summary:	Tie::TextDir module - interface to directory of files
 Summary(pl):	Modu³ Tie::TextDir - interfejs do katalogu plików
 Name:		perl-Tie-TextDir
-Version:	0.04
-Release:	7
+Version:	0.06
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	2c8f942bec452bd0b4d629af21bf6e53
+# Source0-md5:	05a3fd9ee1632b9dc80d39e0646256fd
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
