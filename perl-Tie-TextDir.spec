@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tie
-%define	pnam	TextDir
+%define		pdir	Tie
+%define		pnam	TextDir
 Summary:	Tie::TextDir Perl module - interface to directory of files
 Summary(pl):	Modu³ Perla Tie::TextDir - interfejs do katalogu plików
 Name:		perl-Tie-TextDir
