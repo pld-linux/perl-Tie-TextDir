@@ -3,7 +3,7 @@ Summary:	Tie-TextDir perl module
 Summary(pl):	Modu³ perla Tie-TextDir
 Name:		perl-Tie-TextDir
 Version:	0.03
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
