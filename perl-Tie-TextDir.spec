@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	TextDir
-Summary:	Tie::TextDir perl module
-Summary(pl):	Modu³ perla Tie::TextDir
+Summary:	Tie::TextDir - interface to directory of files
 Name:		perl-Tie-TextDir
 Version:	0.04
 Release:	4
@@ -15,10 +14,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tie::TextDir perl module.
-
-%description -l pl
-Modu³ perla Tie::TextDir.
+The Tie::TextDir module is a TIEHASH interface which lets you tie a Perl
+hash to a directory on the filesystem.  Each entry in the hash represents
+a file in the directory.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
