@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	TextDir
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tie-TextDir perl module
 Summary(pl):	Modu³ perla Tie-TextDir
 Name:		perl-Tie-TextDir
 Version:	0.04
-Release:	3
-
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Tie-TextDir perl module.
 Modu³ perla Tie-TextDir.
 
 %prep
-%setup -q -n Tie-TextDir-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
