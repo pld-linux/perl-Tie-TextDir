@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	TextDir
 Summary:	Tie::TextDir Perl module - interface to directory of files
-Summary(pl):	Modu≥ Perla Tie::TextDir - interfejs do katalogu plikÛw
+Summary(pl.UTF-8):   Modu≈Ç Perla Tie::TextDir - interfejs do katalogu plik√≥w
 Name:		perl-Tie-TextDir
 Version:	0.06
 Release:	1
@@ -25,9 +25,9 @@ The Tie::TextDir module is a TIEHASH interface which lets you tie a
 Perl hash to a directory on the filesystem. Each entry in the hash
 represents a file in the directory.
 
-%description -l pl
-Modu≥ Tie::TextDir jest interfejsem TIEHASH, pozwalaj±cym na
-powi±zanie perlowego hasza z katalogiem w systemie plikÛw. Kaødy
+%description -l pl.UTF-8
+Modu≈Ç Tie::TextDir jest interfejsem TIEHASH, pozwalajƒÖcym na
+powiƒÖzanie perlowego hasza z katalogiem w systemie plik√≥w. Ka≈ºdy
 element hasza reprezentuje plik w katalogu.
 
 %prep
