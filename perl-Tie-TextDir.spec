@@ -9,7 +9,7 @@ Summary:	Tie::TextDir Perl module - interface to directory of files
 Summary(pl.UTF-8):	Moduł Perla Tie::TextDir - interfejs do katalogu plików
 Name:		perl-Tie-TextDir
 Version:	0.06
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
