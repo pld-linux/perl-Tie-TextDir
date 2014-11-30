@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Tie
 %define		pnam	TextDir
+%include	/usr/lib/rpm/macros.perl
 Summary:	Tie::TextDir Perl module - interface to directory of files
 Summary(pl.UTF-8):	Moduł Perla Tie::TextDir - interfejs do katalogu plików
 Name:		perl-Tie-TextDir
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	05a3fd9ee1632b9dc80d39e0646256fd
+URL:		http://search.cpan.org/dist/Tie-TextDir/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
