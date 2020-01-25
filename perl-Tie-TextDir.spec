@@ -4,7 +4,6 @@
 
 %define		pdir	Tie
 %define		pnam	TextDir
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tie::TextDir Perl module - interface to directory of files
 Summary(pl.UTF-8):	Moduł Perla Tie::TextDir - interfejs do katalogu plików
 Name:		perl-Tie-TextDir
